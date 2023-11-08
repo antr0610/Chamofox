@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Ingreso</title>
+  <link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+  <div class="formulario">
+    <h2>Formulario de Ingreso</h2>
+    <form id="formularioIngreso">
+      <label for="nombres">Nombres:</label>
+      <input type="text" id="nombres" required><br>
+
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" required><br>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" required><br>
+
+      <button type="button" onclick="enviarFormulario()">Enviar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

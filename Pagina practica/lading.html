@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .logo-sena {
+      width: 50px;
+      margin: 0 10px;
+    }
+
+    h1 {
+      color: green;
+    }
+
+    .continuar-button {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logos">
+    <img class="logo-sena" src="logo1.png" alt="Logo SENA">
+    <img class="logo-sena" src="logo2.png" alt="Logo SENA">
+    <!-- Agrega más logos del SENA si es necesario -->
+  </div>
+
+  <h1>Página de Bienvenida del SENA</h1>
+
+  <audio controls>
+    <source src="Dana and Alden Dragonfly- Slowed&Reverb to Perfection Tik Tok Aesthetic.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+
+  <div class="continuar-button">
+    <button onclick="abrirPaginaPrincipal()">Continuar</button>
+  </div>
+
+  <script>
+    function abrirPaginaPrincipal() {
+      window.location.href = "pagina1.html";
+    }
+  </script>
+</body>
+</html>
